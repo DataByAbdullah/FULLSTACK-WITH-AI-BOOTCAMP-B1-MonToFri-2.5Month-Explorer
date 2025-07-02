@@ -1,14 +1,16 @@
 s = ["Geeks", "for", "Geeks"]
 
+
+
 print('Starts here')
 
 # using for loop with string
-for i in s:
-    print(i)
+for g in s:
+    print(g)
 
 print('Mid here')
 
-for i in s:
-    print(i)
+for g in s:
+    print(g)
 
 print('Close here')
