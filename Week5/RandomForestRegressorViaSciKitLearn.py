@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 
 california_housing = fetch_california_housing()
 california_data = pd.DataFrame(california_housing.data, columns=california_housing.feature_names)
-california_data['MEDV'] = california_housing.target
+california_data['MEDV'] = california_housing. 
 
 X = california_data.drop('MEDV', axis=1)
 y = california_data['MEDV']
